@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+	<Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+	<TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+	<Title>Create A File In Web Apps</Title>
+	<FrameType>Default</FrameType>
+	<Description>Allows authors to enter rich text content.</Description>
+	<IsIncluded>true</IsIncluded>
+	<PartOrder>2</PartOrder>
+	<FrameState>Normal</FrameState>
+	<Height />
+	<Width />
+	<AllowRemove>true</AllowRemove>
+	<AllowZoneChange>true</AllowZoneChange>
+	<AllowMinimize>true</AllowMinimize>
+	<AllowConnect>true</AllowConnect>
+	<AllowEdit>true</AllowEdit>
+	<AllowHide>true</AllowHide>
+	<IsVisible>true</IsVisible>
+	<DetailLink />
+	<HelpLink />
+	<HelpMode>Modeless</HelpMode>
+	<Dir>Default</Dir>
+	<PartImageSmall />
+	<MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+	<PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+	<IsIncludedFilter />
+	<ExportControlledProperties>true</ExportControlledProperties>
+	<ID>g_69e5521f_31d6_4007_91aa_0bb1dd7427fb</ID>
+	<ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">/webappicons.txt</ContentLink>
+	<Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor"><![CDATA[<div class="esDocLibNewDocument"><a onclick="CoreInvoke(&#39;createNewDocumentWithRedirect2&#39;,event,&#39;http:\u002f\u002fwb2-web.sharepoint.com\u002fxp\u002ftemplate.dotx&#39;, &#39;http:\u002f\u002fwb2-web.sharepoint.com\u002fxp\u002fDocuments&#39;, &#39;SharePoint.OpenDocuments&#39;, false, &#39;http://wb2-web.sharepoint.com/xp/_layouts/CreateNewDocument.aspx?id=http://wb2-web.sharepoint.com/xp/template.dotx&#39;, true, 1)" href="javascript:;"><span style="position: relative; width: 48px; display: inline-block; height: 48px; overflow: hidden"><img title="Create a Word document" class="esDocLibNewIcon" alt="Word" src="/_layouts/images/spxclusteredimage2.png" style="position: absolute; top: -48px !important; left: 0px !important"/></span><div class="bodytext">Word</div></a></div>]]></Content>
+	<PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>
